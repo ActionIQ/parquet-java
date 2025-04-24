@@ -52,20 +52,22 @@
 
   <repositories>
     <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+    <repository>
       <id>jitpack.io</id>
       <url>https://jitpack.io</url>
       <name>Jitpack.io repository</name>
       <!-- needed for brotli-codec -->
     </repository>
     <repository>
-      <id>conjars.org</id>
+      <id>conjars.wensel.net</id>
       <url>https://conjars.wensel.net/repo/</url>
-      <name>Conjars</name>
     </repository>
     <repository>
       <id>orig.conjars.org</id>
       <url>https://orig.conjars.org/repo/</url>
-      <name>Conjars original</name>
     </repository>
   </repositories>
 

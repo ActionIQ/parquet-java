@@ -161,6 +161,12 @@
               <goal>run</goal>
             </goals>
             <configuration>
+              <!--
+              Force install this for your arch via:
+
+              mvn install:install-file -Dfile=$HOME/Downloads/protoc-3.5.1-linux-aarch_64.exe -DgroupId=com.google.protobuf -DartifactId=protoc -Dversion=3.5.1 -Dclassifier=linux-aarch_64 -Dpackaging=exe
+              mvn install:install-file -Dfile=$HOME/Downloads/protoc-3.5.1-linux-aarch_64.exe -DgroupId=com.google.protobuf -DartifactId=protoc -Dversion=3.5.1 -Dclassifier=osx-aarch_64 -Dpackaging=exe
+              -->
               <protocArtifact>com.google.protobuf:protoc:${protobuf.version}</protocArtifact>
               <addSources>test</addSources>
               <addProtoSources>all</addProtoSources>

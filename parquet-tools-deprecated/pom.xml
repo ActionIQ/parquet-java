@@ -77,11 +77,13 @@
       <artifactId>guava</artifactId>
       <version>${guava.version}</version>
     </dependency>
+<!-- Dont bring in a logger here, it gets embedded into the jar
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
       <version>${slf4j.version}</version>
     </dependency>
+-->
   </dependencies>
 
   <build>
