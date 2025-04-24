@@ -9,7 +9,7 @@
 
   <groupId>org.apache.parquet</groupId>
   <artifactId>parquet</artifactId>
-  <version>1.12.2</version>
+  <version>1.12.2-aiq1</version>
   <packaging>pom</packaging>
 
   <name>Apache Parquet MR</name>
@@ -56,6 +56,16 @@
       <url>https://jitpack.io</url>
       <name>Jitpack.io repository</name>
       <!-- needed for brotli-codec -->
+    </repository>
+    <repository>
+      <id>conjars.org</id>
+      <url>https://conjars.wensel.net/repo/</url>
+      <name>Conjars</name>
+    </repository>
+    <repository>
+      <id>orig.conjars.org</id>
+      <url>https://orig.conjars.org/repo/</url>
+      <name>Conjars original</name>
     </repository>
   </repositories>
 

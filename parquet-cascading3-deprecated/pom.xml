@@ -21,7 +21,7 @@
     <groupId>org.apache.parquet</groupId>
     <artifactId>parquet</artifactId>
     <relativePath>../pom.xml</relativePath>
-    <version>1.12.2</version>
+    <version>1.12.2-aiq1</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -31,13 +31,6 @@
 
   <name>Apache Parquet Cascading (for Cascading 3.0 onwards) [Deprecated, will be removed after 1.12]</name>
   <url>https://parquet.apache.org</url>
-
-  <repositories>
-    <repository>
-     <id>conjars.org</id>
-      <url>https://conjars.org/repo</url>
-    </repository>
-  </repositories>
 
   <dependencies>
     <dependency>
